@@ -2,7 +2,6 @@ name: test_emc2dev
 channels:
   - defaults
   - conda-forge
-  - pypi
 dependencies:
   - sphinx=8.2.3
   - myst-parser=4.0.1
@@ -11,3 +10,5 @@ dependencies:
   - matplotlib
   - jupyter-sphinx
   - sphinx-thebe
+  - pip
+    - sphinx-material==0.0.36
