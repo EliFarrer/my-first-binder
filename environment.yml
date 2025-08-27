@@ -10,5 +10,6 @@ dependencies:
   - matplotlib
   - jupyter-sphinx
   - sphinx-thebe
+  - pip
   - pip:
     - sphinx-material==0.0.36
